@@ -1,0 +1,33 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "A REST API project, part of Free Code Camp's curriculum",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch --no-warnings index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "exercise-tracker",
+    "npm",
+    "cors",
+    "node",
+    "javascript",
+    "node.js"
+  ],
+  "author": "Gustavo Victor",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "repository": {
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
+  }
+}
