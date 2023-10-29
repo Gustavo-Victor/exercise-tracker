@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "A REST API project, part of Free Code Camp's curriculum",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "node --watch --no-warnings index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "node",
@@ -29,5 +29,8 @@
   },
   "repository": {
     "url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
